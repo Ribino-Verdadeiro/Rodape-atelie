@@ -30,15 +30,25 @@ footer{
     padding: 3rem 3.5rem;
 }
 
+#footer_conteudo h2{
+    margin-top: -7%;
+}
+
 #footer_contatos h1{
     margin-bottom: 0.75rem;
     color: black;
 }
 
+#footer_contatos h2{
+    margin-bottom: 0.75rem;
+    color: black;
+    margin-left: 75%;
+}
+
 #social-media{
     display: flex;
     gap: 2rem;
-    margin-top: 1.5rem;
+    margin-top: 1.5rem;  
 }
 
 #social-media .footer_link {
@@ -70,10 +80,6 @@ footer{
     background-color: #25d366;
 }
 
-#email{
-    background-color: red;
-}
-
 #copyright{
     display: flex;
     justify-content: center;
@@ -85,5 +91,12 @@ footer{
 #logotipo-rodape{
     width: 7rem;
     height: 7rem;
-    margin-left: 50%;
+    margin-left: 45%;
+    
+}
+
+#email{
+    margin-left: 75%;
+    color: black;
+    margin-top: 0;
 }
